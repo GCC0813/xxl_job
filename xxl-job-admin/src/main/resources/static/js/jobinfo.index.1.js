@@ -29,7 +29,7 @@ $(function() {
 	                	"data": 'id',
 						"bSortable": false,
 						"visible" : true,
-						"width":'7%'
+						"width":'5%'
 					},
 	                {
 	                	"data": 'jobGroup',
@@ -47,12 +47,12 @@ $(function() {
 	                {
 	                	"data": 'jobDesc',
 						"visible" : true,
-						"width":'25%'
+						"width":'20%'
 					},
 					{
 						"data": 'scheduleType',
 						"visible" : true,
-						"width":'13%',
+						"width":'20%',
 						"render": function ( data, type, row ) {
 							if (row.scheduleConf) {
 								return row.scheduleType + '：'+ row.scheduleConf;
@@ -63,7 +63,7 @@ $(function() {
 					},
 					{
 						"data": 'glueType',
-						"width":'25%',
+						"width":'20%',
 						"visible" : true,
 						"render": function ( data, type, row ) {
 							var glueTypeTitle = findGlueTypeTitle(row.glueType);
