@@ -1,8 +1,5 @@
 package com.xxl.job.admin.core.model;
 
-import java.io.Serializable;
-import java.util.Date;
-
 /**
  * @author 
  * 
@@ -12,9 +9,6 @@ public class XxlJobBusGroup{
     private Integer id;
 
     private String name;
-
-
-    private static final long serialVersionUID = 1L;
 
     public Integer getId() {
         return id;
